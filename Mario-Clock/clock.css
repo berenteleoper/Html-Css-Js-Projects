@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(#5c94fc, #8fd3ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffcc00;
+    padding: 30px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000;
+    max-width: 500px;
+    min-height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid #000;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: 3px solid #000;
+    background-color: #ff5733;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #ff2e00;
+}
+
+.message {
+    margin-top: 20px;
+    background-color: #00b300;
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: 8px;
+}
+
+/* Mario sahnesi */
+.mario-scene {
+    margin-top: 30px;
+    height: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;   
+}
+
+.mario {
+    width: 80px;
+}
+
+
+
+/* Victory Mario */
+#thumbMario {
+    margin: 20px 0;
+}
+
+#thumbMario img {
+    width: 120px;
+}

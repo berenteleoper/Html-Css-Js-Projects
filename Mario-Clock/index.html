@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Tarzı İlk Ödev</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mario Tarzı Ödev</h1>
+        
+        <!-- Bu resim sadece tebrik sayfasında gösterilecek -->
+        <div id="thumbMario" style="display: none;">
+            <img src="https://i.pinimg.com/736x/e9/13/65/e913654c09aa1f82edbb2321a11e10ce.jpg" alt="Victory Mario">
+            
+        </div>
+
+        <div id="inputSection">
+            <label for="nameInput">Lütfen isminizi giriniz:</label><br>
+            <input type="text" id="nameInput" placeholder="İsminiz">
+            <br>
+            <button id="submitBtn">Gönder</button>
+
+            <!-- Mario ve boru görselleri -->
+            <div class="mario-scene">
+                <img src="https://www.nicepng.com/png/full/169-1691582_mario-pixel-jump-super-mario-world-mario-jumping.png" alt="Mario" class="mario">
+            </div>
+        </div>
+
+        <div id="messageSection" style="display: none;"></div>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+</html>
