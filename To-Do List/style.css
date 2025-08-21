@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(135deg, #ffd6a5, #fdffb6, #caffbf, #a0c4ff);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.todo-container {
+  max-width: 500px;
+  margin: 80px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff6f61;
+}
+
+ul li {
+list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fce1e4;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* yazı ile buton arasında boşluk */
+}
+
+ul li span {
+  word-break: break-all;    /* kelime ortasından bile kırar */
+  white-space: normal;      /* tek satıra sıkıştırmaz */
+  flex: 1;                  /* yazı butona taşmadan genişleyebilir */
+}
+
+ul li.done {
+  text-decoration: line-through;
+  background: #caffbf !important;
+}
+
+.btn-custom {
+ background-color: #ffb347; /* pastel turuncu */
+  border: none;
+  color: white; /* yazıyı beyaz yapalım */
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #ff9966; /* hover rengi biraz koyu turuncu */
+}
