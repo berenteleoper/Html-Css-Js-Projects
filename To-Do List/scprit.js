@@ -1,4 +1,4 @@
-// LocalStorage'dan yükleme
+// LocalStorage'dan verileri yükle
 document.addEventListener("DOMContentLoaded", loadTasks);
 
 function addTask() {
@@ -18,7 +18,7 @@ function addTask() {
   input.value = "";
 }
 
-// Tek görevi render et
+// Görevi gönder
 function renderTask(task) {
   let ul = document.getElementById("taskList");
 
@@ -40,7 +40,7 @@ function renderTask(task) {
   ul.appendChild(li);
 }
 
-// Yapıldı işaretleme
+// Yapılan görevleri işaretleme
 function toggleDone(li, text) {
   li.classList.toggle("done");
   updateTaskStatus(text, li.classList.contains("done"));
@@ -100,3 +100,4 @@ document.getElementById("taskInput").addEventListener("keydown", function (event
     addTask();
   }
 });
+
