@@ -32,9 +32,9 @@ list-style: none;
 }
 
 ul li span {
-  word-break: break-all;    /* kelime ortasından bile kırar */
-  white-space: normal;      /* tek satıra sıkıştırmaz */
-  flex: 1;                  /* yazı butona taşmadan genişleyebilir */
+  word-break: break-all;    
+  white-space: normal;      
+  flex: 1;                 
 }
 
 ul li.done {
@@ -43,12 +43,13 @@ ul li.done {
 }
 
 .btn-custom {
- background-color: #ffb347; /* pastel turuncu */
+ background-color: #ffb347; 
   border: none;
-  color: white; /* yazıyı beyaz yapalım */
+  color: white; 
   font-weight: bold;
 }
 
 .btn-custom:hover {
-  background-color: #ff9966; /* hover rengi biraz koyu turuncu */
+  background-color: #ff9966; 
 }
+
